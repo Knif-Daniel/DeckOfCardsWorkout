@@ -117,6 +117,7 @@ function newCard()
       document.getElementById("number").innerText = "Anzahl"
       document.getElementById("CardGame").hidden = "hidden;"
       document.getElementById("MainMenu").hidden = ""
+      document.getElementById("cardof").innerText = "Karte 0/54"
       document.getElementById("card").style = "padding: 10px;";
       
 
