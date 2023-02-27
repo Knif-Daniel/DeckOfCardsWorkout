@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <script src="WorkofCards.js"></script>
+    <meta charset="utf-8">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .headers{
+        font-size: 25px;
+        text-align: center;
+      }
+      .cards{
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      .flex-container {
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        text-align: center;
+      }
+      
+      .flex-item-left {
+        background-color: #f1f1f1;
+        padding: 10px;
+        flex: 50%;
+      }
+      
+      .flex-item-right {
+        background-color: dodgerblue;
+        padding: 10px;
+        flex: 50%;
+      }
+      
+      /* Responsive layout - makes a one column-layout instead of two-column layout */
+      @media (max-width: 600px) {
+        .flex-container {
+          flex-direction: column;
+        }
+      }
+      </style>
+  </head>
+  <body>
+    <div id="CardGame" hidden="hidden">
+      <div class="flex-container">
+        <div class="flex-item-right" id="exercise">Übung</div>
+        <div class="flex-item-left" id="number">Anzahl</div>
+      </div>
+      <div class="cards">
+       <div class="flex-item-left" id="card">Karte</div>
+       <div class="flex-item-right" id="time">2:00</div>
+       <button class="flex-item-left" onclick="newCard()">Next</button>
+      </div>
+      <div class="flex-container">
+        <div class="flex-item-right" id="cardof">Karte 0/54</div>      
+          <button class="flex-item-left" id="endTraining" onclick="exit()">Trainning Beenden</button> 
+          <button class="flex-item-right" id="break" onclick="pause()">Trainning unterbrechen</button>
+      </div>
+    </div>
+    <div id="MainMenu">
+      <div class="headers">
+        <h1>Card Work Out</h1>
+        <h2>by Fink Daniel</h2>
+      </div>
+      
+      <div class="cards">
+        <div >
+          <div class="flex-container">
+            <div class="flex-item-left" style="font-size: 50px;" >🂡</div>
+            <textarea class="flex-item-left"  name="bigExe" id="bigExer" placeholder="Burpees"></textarea>
+          </div>
+          <div class="flex-container">
+            <div class="flex-item-left" style="color: red; font-size: 50px;" >🂱</div>
+            <textarea class="flex-item-left"  id="herExer" placeholder="Sit up"></textarea>
+          </div>
+          <div class="flex-container">
+            <div class="flex-item-left" style="color: red; font-size: 50px;" >🃁</div>
+            <textarea class="flex-item-left"  id="karExer" placeholder="Push up"></textarea>
+          </div>
+          <div class="flex-container">
+            <div class="flex-item-left" style="font-size: 50px;">🃑</div>
+            <textarea class="flex-item-left"  id="kreExer" placeholder="Pull up"></textarea>
+          </div>
+        </div>
+        <button class="flex-item-left" id="startTraining" onclick="startGame()">Training Starten</button>
+      </div>
+      
+    </div>
+      
+    <div id="paused" hidden="hidden">
+      <div class="flex-container">
+        <div class="flex-item-left" style="font-size: 50px;" >Training pausiert</div>
+        <button class="flex-item-left" onclick="continuen()">Fortfahren</button>
+      </div>
+    </div>
+    
+  </body>
+</html> 
