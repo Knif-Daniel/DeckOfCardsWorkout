@@ -6,17 +6,19 @@
     "description": "Workout with Cards",
    
  
-    "scope": "https://knif-daniel.github.io/DeckOfCardsWorkout/",
-    "start_url": "https://knif-daniel.github.io/DeckOfCardsWorkout/",
+    "scope": "https://knif-daniel.github.io/DeckOfCardsWorkout",
+    "start_url": "https://knif-daniel.github.io/DeckOfCardsWorkout",
    
 
     "background_color": "#ffffff",
     "theme_color": "#ffffff",
    
     "display": "standalone", 
+   
+    
     "icons": [
         {
-          "src": "https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fplaying-cards&psig=AOvVaw2S9i2vDJTcrE2AOxgfYRMA&ust=1677619179555000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJif4svQtv0CFQAAAAAdAAAAABAE.png",
+          "src": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fde.pngtree.com%2Ffree-logo-png&psig=AOvVaw1jARG1X1vMNr0vCU48IMDG&ust=1677619555505000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIiF__7Rtv0CFQAAAAAdAAAAABAE.png",
           "type": "image/png",
           "sizes": "700x700"
         }
