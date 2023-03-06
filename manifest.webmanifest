@@ -1,28 +1,14 @@
 {
-  
-    "name": "Deck of Cards Workout",
-    "short_name": "DoCW",
-
-    "description": "Workout with Cards",
-   
- 
-    "scope": "/",
+    "name": "Work of Cards Workout",
+    "short_name": "WoCW",
     "start_url": "index.html",
-
-    "prefer_related_applications": true,     
-   
-
-    "background_color": "#ffffff",
-    "theme_color": "#ffffff",
-   
-    "display": "standalone", 
-   
-    
+    "display": "standalone",
+    "background_color": "#05002e",
+    "theme_color": "#05002e",
     "icons": [
         {
-          "src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f89c5888-7a50-4ffd-9b9f-2ea1449194cc/d5z3kj7-121a3740-defa-4d6b-b6d1-ec3c17d20583.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y4OWM1ODg4LTdhNTAtNGZmZC05YjlmLTJlYTE0NDkxOTRjY1wvZDV6M2tqNy0xMjFhMzc0MC1kZWZhLTRkNmItYjZkMS1lYzNjMTdkMjA1ODMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.PHLEnMudzmXHubFslv-kQ6k7I_CrVX4mTNwGotX9dH4.png",
-          "type": "image/png",
-          "sizes": "512x512"
+            "src": "https://github.com/hampoelz/Branding/raw/master/rendered/logo/logo-3072x.png",
+            "type": "image/png", "sizes": "3072x3072"
         }
     ]
-  }
+}
