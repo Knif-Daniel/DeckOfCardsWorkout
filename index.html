@@ -17,7 +17,7 @@
         font-size: 30px;
         text-align: center;
       }
-
+      
       .flex-container {
         display: flex;
         flex-direction: row;
@@ -46,6 +46,15 @@
       </style>
   </head>
   <body>
+    <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/DeckOfCardsWorkout/sw.js',
+          {scope: '/DeckOfCardsWorkout/'}
+        )
+      }
+  </script>
+
     <div id="CardGame" hidden="hidden">
       <div class="flex-container">
         <div class="flex-item-right" id="number">Anzahl</div>
