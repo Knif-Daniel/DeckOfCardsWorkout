@@ -47,12 +47,11 @@
   </head>
   <body>
     <script>
-      if (navigator.serviceWorker) {
-        navigator.serviceWorker.register (
-          '/DeckOfCardsWorkout/sw.js',
-          {scope: '/DeckOfCardsWorkout/'}
-        )
-      }
+    if ("sw" in navigator) {
+    window.addEventListener("load", function () {
+        navigator.serviceWorker.register("sw.js")
+    })
+}
   </script>
 
     <div id="CardGame" hidden="hidden">
