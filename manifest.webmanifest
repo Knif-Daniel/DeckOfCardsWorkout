@@ -8,6 +8,8 @@
  
     "scope": "/DeckOfCardsWorkout/",
     "start_url": "https://knif-daniel.github.io/DeckOfCardsWorkout/",
+
+    "prefer_related_applications": true,     
    
 
     "background_color": "#ffffff",
@@ -18,9 +20,9 @@
     
     "icons": [
         {
-          "src": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fde.pngtree.com%2Ffree-logo-png&psig=AOvVaw1jARG1X1vMNr0vCU48IMDG&ust=1677619555505000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIiF__7Rtv0CFQAAAAAdAAAAABAE.png",
+          "src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f89c5888-7a50-4ffd-9b9f-2ea1449194cc/d5z3kj7-121a3740-defa-4d6b-b6d1-ec3c17d20583.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y4OWM1ODg4LTdhNTAtNGZmZC05YjlmLTJlYTE0NDkxOTRjY1wvZDV6M2tqNy0xMjFhMzc0MC1kZWZhLTRkNmItYjZkMS1lYzNjMTdkMjA1ODMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.PHLEnMudzmXHubFslv-kQ6k7I_CrVX4mTNwGotX9dH4.png",
           "type": "image/png",
-          "sizes": "700x700"
+          "sizes": "512x512"
         }
     ]
   }
