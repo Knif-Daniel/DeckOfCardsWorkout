@@ -6,8 +6,8 @@
     "description": "Workout with Cards",
    
  
-    "scope": "/DeckOfCardsWorkout/",
-    "start_url": "https://knif-daniel.github.io/DeckOfCardsWorkout/",
+    "scope": "/",
+    "start_url": "/",
 
     "prefer_related_applications": true,     
    
