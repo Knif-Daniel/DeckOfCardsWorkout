@@ -1,7 +1,14 @@
 <!doctype html>
 <html lang="de">
   <head>
+    <title>Work of Cards</title>
     <script src="WorkofCards.js"></script>
+    <meta name="description" content="A Simple Wokout with Cards App.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="./icons/maskable_icon_x512.png">
+    <meta name="theme-color" content="#fff"/>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="sw" href="/sw.js">
     <meta charset="utf-8">
     <style>
       * {
@@ -38,7 +45,7 @@
       }
       
       /* Responsive layout - makes a one column-layout instead of two-column layout */
-      @media (max-width: 800px) {
+      @media (max-width: 1100px) {
         .flex-container {
           flex-direction: column;
         }
@@ -47,11 +54,10 @@
   </head>
   <body>
     <script>
-    if ("sw" in navigator) {
-    window.addEventListener("load", function () {
-        navigator.serviceWorker.register("sw.js")
-    })
-}
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./sw.js");
+        }
+      
   </script>
 
     <div id="CardGame" hidden="hidden">
@@ -62,7 +68,7 @@
       <div class="cards">
        <div class="flex-item-left" id="card">Karte</div>
        <div class="flex-item-right" id="time">2:00</div>
-       <button class="flex-item-left" onclick="newCard()">Neue Karte</button>
+       <button style="font-size: 50px;" class="flex-item-left" onclick="newCard()">Neue Karte</button>
       </div>
       <div class="flex-container">
         <div class="flex-item-right" id="cardof">Karte 0/54</div>      

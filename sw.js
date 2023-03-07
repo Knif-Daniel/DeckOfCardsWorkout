@@ -1,11 +1,13 @@
 
+
 let currentPath = self.location.href.replace("/sw.js", "");
 
-const cacheName = "WoCW"
+const cacheName = "smart-home-v1"
 const assets = [
     "/",
     "/index.html",
-    "/WorkofCards.js",
+    "/WorkofCards.js"
+   
 ].map(url => currentPath + url)
 
 self.addEventListener("install", installEvent => {
