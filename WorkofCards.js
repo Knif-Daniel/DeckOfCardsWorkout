@@ -39,12 +39,6 @@ function newCard() {
     document.getElementById("card").style = "color: red; font-size: 40mm; ";
   }
 
-  //--------------------------------------
-  //Timer
-  //--------------------------------------
-
-
-
 
   if (SortedCardNumbers[counter] < 13) {
     document.getElementById("exercise").innerText = exerciseBig
@@ -137,14 +131,13 @@ function toTimeString(seconds) {
 }
 
 function timedCount() {
-  document.getElementById("time").innerHTML = Timer
+  document.getElementById("time").innerHTML = toTimeString(Timer) 
   Timer--
   timeout = setTimeout(timedCount, 1000)
   if (Timer == -1) {
     clearTimeout(timeout)
     Timer = 120
     newCard()
-    
   }
   
 }
